@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testnglistenersuit]">
+  <test thread-count="5" name="logintest(failed)">
+    <classes>
+      <class name="com.mercury.qa.testpages.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginvalidationwithInvalidUserNameandValidPassword"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mercury.qa.testpages.LoginPageTest -->
+    </classes>
+  </test> <!-- logintest(failed) -->
+</suite> <!-- Failed suite [testnglistenersuit] -->
